@@ -10,3 +10,11 @@ body {
 .geometrie-3d {
   cursor: grab;
 }
+
+.stats canvas {
+  display: block !important;
+}
+
+.stats canvas:not(:last-child) {
+  margin-bottom: 24px;
+}
